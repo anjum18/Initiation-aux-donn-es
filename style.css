@@ -1,0 +1,58 @@
+body{
+    margin: 0 0;
+    font-family: 'Kanit', sans-serif;
+
+ 
+
+
+
+background-image: url("bg.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height:120px;
+    /* color:black; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    letter-spacing: 3px;    
+    
+}
+
+a{
+    font-size: 18px;
+    color: aqua;
+}
+h1{
+    
+    text-align:center;
+    color: aqua;
+    padding-top: 2%;
+    /* font-size: 20px; */
+    background-repeat: no-repeat;
+    background-image: url(images.png);
+
+    height: 150px;
+    
+}
+
+h2{
+    font-size:30px;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom:25px;
+    text-transform: uppercase;
+    color:rgb(68, 214, 44)!important;
+}
+
+
+
+
